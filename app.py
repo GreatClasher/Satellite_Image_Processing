@@ -61,16 +61,5 @@ def prediction(file):
 def result(result_image):
     return render_template('result.html', result_image_path=result_image)
 
-
-
-
-
 if __name__ == "__main__":
-  app.run()
-
-
-
-
-# @app.route('/result/', methods=['GET', 'POST'])
-# def results():
-  # return render_template('result.html')
+    app.run(host="0.0.0.0", port=5000)
