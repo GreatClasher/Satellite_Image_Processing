@@ -25,7 +25,7 @@ To run the application, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/satellite-image-processing.git
+   git clone https://github.com/GreatClasher/satellite-image-processing.git
    cd satellite-image-processing
 # Set the path to the ResNet34 weight file
 
